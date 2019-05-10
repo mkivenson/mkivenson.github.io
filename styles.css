@@ -1,0 +1,21 @@
+#header {
+    grid-area: header;
+    background-color: #dddddd;
+}
+
+#right-sidebar {
+    grid-area: rsidebar;
+    background-color: #aafed6;
+}
+
+#content {
+    background-color: #eeeeee;
+    grid-area: content;
+    position: relative;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns: auto 200px;
+    grid-template-areas: 'header header ' ' content rsidebar'  'footer footer ';
+}
