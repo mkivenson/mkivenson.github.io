@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+#ifpk{
+  padding:50px 0;
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  background-image:url(/img/tpl-img-overlay-white.png), url(/img/plh14.jpg);
+  background-repeat:repeat, repeat;
+  background-position:left top, left top;
+  background-attachment:scroll, scroll;
+  background-size:auto, auto;
+}
+#idfd{
+  padding:25px 0;
+  max-width:750px;
+}
+#ictn9{
+  flex-basis:64.6%;
+}
+#iynm{
+  padding:30px 30px 30px 30px;
+  flex-basis:82%;
+}
+#iiso{
+  background-color:white;
+  box-shadow:0 15px 30px 3px rgba(0,0,0,0.15) ;
+  border-radius:3px 3px 3px 3px;
+  padding:0 0 0 0;
+}
+#wrapper{
+  background-color:#f2f2f2;
+  color:#555555;
+  font-family:Helvetica, serif;
+}
+#ilvf8{
+  background-image:url('/assets/u77c188d0d84748908632ed194b79b041/372c70e42a86444b842943cc423ee6c8_Lola.jpg');
+  background-size:cover;
+  background-position:center center;
+  background-attachment:scroll;
+  background-repeat:no-repeat;
+  height:240px;
+  border-radius:3px 0 0 3px;
+}
+#iqu4g{
+  margin:0 0 15px 0;
+  font-size:35px;
+  font-weight:300;
+}
+#iz1aq{
+  margin:0 0 20px 0;
+  font-weight:300;
+  font-size:19px;
+  letter-spacing:2px;
+  color:rgba(85,85,85,0.5);
+}
+#ii3kl{
+  padding:10px 10px 10px 0;
+  font-weight:300;
+  margin:0 0 20px 0;
+}
+.card-icon{
+  width:25px;
+  height:25px;
+  margin:0 17px 0 0;
+  color:rgba(85,85,85,0.5);
+}
+#i079l{
+  background-color:white;
+  box-shadow:0 15px 30px 3px rgba(0,0,0,0.15) ;
+  border-radius:3px 3px 3px 3px;
+  padding:0 0 0 0;
+}
+#ip328{
+  flex-basis:64.6%;
+}
+.tab{
+  text-decoration:none;
+  color:inherit;
+  padding:7px 14px;
+  transition:opacity 0.3s;
+  display:inline-block;
+  border-radius:3px;
+  margin-right:10px;
+  background-color:#ffffff;
+}
+.tab.tab-active{
+  background-color:#0d94e6;
+  color:white;
+}
+.tab-content{
+  padding:6px 12px;
+  min-height:100px;
+  animation:fadeEffect 1s;
+  box-shadow:0 0 5px 0 black ;
+  background-color:#ffffff;
+}
+.tab-container{
+  letter-spacing:5px;
+  background-color:rgba(0,0,0,0);
+  opacity:1;
+}
+@keyframes fadeEffect{
+  from{
+    opacity:0;
+  }
+  to{
+    opacity:1;
+  }
+}
