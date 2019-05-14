@@ -2,13 +2,13 @@
   cursor: pointer;
 }
 
-.project-card:hover {
+.project-card .card-body:hover {
   box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1) !important;
 }
 
-a.project-card:hover {
+/* a.project-card .card-body:hover {
   box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1) !important;
-}
+} */
 
 .card-header span {
   color: white !important;
@@ -17,4 +17,8 @@ a.project-card:hover {
 .card-header .row {
   margin-left: 0px;
   margin-right: 0px;
+}
+
+.project-card a.card-body {
+  text-decoration: none !important;
 }
