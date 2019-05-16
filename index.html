@@ -4,9 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>About Mary Anna</title>
+  <title>Mary Anna's Projects</title>
   <link rel="stylesheet" href="styles/bootstrap.min.css" />
   <link rel="stylesheet" href="styles/styles.css" />
+  <link rel="stylesheet" href="styles/project.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -22,13 +24,13 @@
       <div class="collapse navbar-collapse" id="navbarColor01">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html"><h4>About me</h4></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="projects.html"><h4>Projects</h4></a>
+            <a class="nav-link" href="index.html"><h4>Projects</h4></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="skills.html"><h4>Skills</h4></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html"><h4>About me</h4></a>
           </li>
         </ul> 
       </div>
@@ -48,18 +50,118 @@
     </div>
   </div>
   <!-- HERO END -->
-  <div class="container">
-    <div class="jumbotron mt-4">
-      <h1 class="display-3">About Me</h1>
-      <p class="lead">Mary Anna is an Operations Analyst with Con Edison as well as a data scientist in training, currently earning her master's degree in Data Science from the CUNY school of Professional Studies. Throughout her professional and educational experience, Mary Anna has used various programming languages and reporting tools. Her projects cover topics such as sentiment analysis, machine learning, and webscraping. In addition to her current work, Mary Anna is looking for opportunities in the data science field to further develop her skill set.</p>
-      <hr class="my-4">
-      <p>To contact Mary Anna, please email (mkivenson@gmail.com).</p>
-      <p class="lead">
-        <div class="btn-group" role="group" aria-label="Basic example">
-          <a href="projects.html"><button type="button" class="btn btn-primary">Projects</button></a>
-          <a href="skills.html"><button type="button" class="btn btn-primary">Skills</button></a>
+  <div class="container mt-4">
+    <div class="card-deck">
+      
+      <div class="card text-white project-card bg-dark mb-3">
+        <div class="card-header">
+          <div class="row justify-content-between">
+            <span class="text-primary">Python</span>
+            <a href="https://github.com/mkivenson/Household-Power-Consumption" target="__blank"><i class="fab fa-github fa-lg"></i> Repository</a>
+          </div>
         </div>
-      </p>
+        <a href="https://nbviewer.jupyter.org/github/mkivenson/Household-Power-Consumption/blob/master/Energy_Analysis.ipynb" target="__blank" class="card-body">
+          <h4 class="card-title">Power Consumption Forecasting</h4>
+          <p class="card-text">Descriptive analytics and univariate time series forecasting of the Household Power Consumption Dataset. Trains and tests SARIMA and Prophet time series models to obtain a forecast.</p>
+          <div>
+            <span class="badge badge-pill badge-secondary">Machine Learning</span>
+            <span class="badge badge-pill badge-secondary">Visualization</span>
+          </div>
+        </a>
+      </div>
+      
+      <div class="card text-white bg-dark mb-3 project-card">
+        <div class="card-header">
+          <div class="row justify-content-between">
+            <span class="text-primary">R | Shiny</span>
+            <a href="https://github.com/mkivenson/Stock-Performance-Dashboard" target="__blank"><i class="fab fa-github fa-lg"></i> Repository</a>
+          </div>
+        </div>
+        <a href="https://mkivenson.shinyapps.io/Stock_Overview/" target="__blank" class="card-body">
+          <h4 class="card-title">Stock Performance Dashboard</h4>
+          <p class="card-text">Interactive Shiny dashboard that uses a trading data API to obtain historical stock price data to report on stock metrics and performance. <i>Note: Takes 20 seconds to load</i></p>
+          <div>
+            <span class="badge badge-pill badge-secondary">Machine Learning</span>
+            <span class="badge badge-pill badge-secondary">Visualization</span>
+            <span class="badge badge-pill badge-secondary">Dashboard</span>
+          </div>
+        </a>
+      </div>
+      
+      <div class="card text-white bg-dark mb-3 project-card">
+        <div class="card-header">
+          <div class="row justify-content-between">
+            <span class="text-primary">R | SQL</span>
+            <a href="https://github.com/mkivenson/Indeed-Web-Scraping-Analysis" target="__blank"><i class="fab fa-github fa-lg"></i> Repository</a>
+          </div>
+        </div>
+        <a href="http://rpubs.com/mkivenson/Indeed-Project" target="__blank" class="card-body">
+          <h4 class="card-title">Indeed Webscraping and Analysis</h4>
+          <p class="card-text">Provides insights on which skills are most important for aspiring data scientists by scraping job postings from Indeed. Uses AWS RDS Postgres server to store job listings  data.</p>
+          <div>
+            <span class="badge badge-pill badge-secondary">Web Scraping</span>
+            <span class="badge badge-pill badge-secondary">AWS RDS</span>
+            <span class="badge badge-pill badge-secondary">Visualization</span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="card-deck">
+        
+      <div class="card text-white bg-dark mb-3 project-card">
+        <div class="card-header">
+          <div class="row justify-content-between">
+            <span class="text-primary">R</span>
+            <a href="https://github.com/mkivenson/Tidying-and-Analysis-of-Crime-Statistics" target="__blank"><i class="fab fa-github fa-lg"></i> Repository</a>
+          </div>
+        </div>
+        <a href="http://rpubs.com/mkivenson/crime-stats" target="__blank" class="card-body">
+          <h4 class="card-title">NYC & Crime Analysis</h4>
+          <p class="card-text">Performs data cleanup and analysis of stop-and-frisk data, demographics information, and crime rates in New York City and in the United States.</p>
+          <div>
+            <span class="badge badge-pill badge-secondary">Visualization</span>
+            <span class="badge badge-pill badge-secondary">Data Clean-up</span>
+          </div>
+        </a>
+      </div>
+
+      
+      <div class="card text-white bg-dark mb-3 project-card">
+        <div class="card-header">
+          <div class="row justify-content-between">
+            <span class="text-primary">R</span>
+            <a href="https://github.com/mkivenson/Sentiment-Analysis-of-Reviews" target="__blank"><i class="fab fa-github fa-lg"></i> Repository</a>
+          </div>
+        </div>
+        <a href="http://rpubs.com/mkivenson/sentiment-reviews" target="__blank" class="card-body">
+          <h4 class="card-title">Sentiment Analysis of Amazon Reviews</h4>
+          <p class="card-text">Performs sentiment analysis and text mining on video game reviews from Amazon.</p>
+          <div>
+            <span class="badge badge-pill badge-secondary">NLP</span>
+            <span class="badge badge-pill badge-secondary">Visualization</span>
+          </div>
+        </a>
+      </div>
+
+      
+      <div class="card text-white bg-dark mb-3 project-card">
+        <div class="card-header">
+          <div class="row justify-content-between">
+            <span class="text-primary">R</span>
+            <a href="https://github.com/mkivenson/Inference-on-Dog-Breeds-in-NYC" target="__blank"><i class="fab fa-github fa-lg"></i> Repository</a>
+          </div>
+        </div>
+        <a href="http://rpubs.com/mkivenson/dogs_nyc" target="__blank" class="card-body">
+          <h4 class="card-title">Dogs in New York City</h4>
+          <p class="card-text">In New York City, are certain dog breeds more common than others by zip code?</i> Knowing which dogs breeds are most prevalent in each subsection of the city could help with targeted adoption strategies.</p>
+          <div>
+            <span class="badge badge-pill badge-secondary">Visualization</span>
+            <span class="badge badge-pill badge-secondary">Statistics</span>
+          </div>
+        </a>
+      </div>
+    </div>
+
     </div>
   </div>
 </body>
