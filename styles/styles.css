@@ -9,11 +9,11 @@ body {
 
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/mary_again_cropped.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/architecture-768432_1280\ \(1\).jpg");
 
   /* Set a specific height */
   width: 100vw;
-  height: 50vh;
+  height: 400px;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
@@ -30,6 +30,11 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+
+.circle-image {
+  border: rgb(255, 209, 59) solid 4px;
+  border-radius: 100px;
 }
 
 .hero-text h1 {
