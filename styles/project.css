@@ -22,3 +22,58 @@
 .project-card a.card-body {
   text-decoration: none !important;
 }
+
+.card-deck {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#energy_analysis .card-body {
+  background-image: 
+  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  url("../images/overhead_electricity.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#stock_performance_dashboard .card-body {
+  background-image: 
+  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url("../images/stocks.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#indeed_webscraping_and_analysis .card-body {
+  background-image: 
+  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  url("../images/data_science_words.png");
+  background-repeat: no-repeat;
+  background-size: 250% 250%;
+  background-position-x: -300px;
+  background-position-y: -100px;
+}
+
+#nyc_crime_analysis .card-body {
+  background-image: 
+  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url("../images/nyc_yellow_tint.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#sentiment_analysis_amazon .card-body {
+  background-image: 
+  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url("../images/amazon_packages.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#dogs_in_nyc .card-body {
+  background-image: 
+  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url("../images/color_full_dog.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
