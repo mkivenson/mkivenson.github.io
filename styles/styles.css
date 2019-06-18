@@ -3,13 +3,13 @@ body, html {
 }
 
 body {
-  /* background-color: rgb(188,143,143); */
-  background-color: white;
+  background-color: #af92a13b;
+  /* background-color: white; */
 }
 
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/stars.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url("../images/chain_bg.jpeg");
 
   /* Set a specific height */
   width: 100vw;
