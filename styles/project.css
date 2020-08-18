@@ -36,6 +36,15 @@
   background-size: cover;
 }
 
+#tableau_energy_dashboard .card-body {
+  background-image: 
+  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  url("../images/tableau_image.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 #stock_performance_dashboard .card-body {
   background-image: 
   linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
